@@ -1,1 +1,1 @@
-# -Attendance-Management
+# 출석 관리 시스템
