@@ -53,18 +53,35 @@
 
 <br/>
 
-## 📷 시연 화면
-> *(여기에 프로그램 실행 화면이나 센서 사진을 추가하면 좋습니다)*
+## 🛠 시스템 구성도 (Arduino 회로도)
+
+아두이노와 압력 센서를 기반으로 구성된 회로도입니다.
+
+![Arduino 회로도](./images/arduino_diagram.png)
+
+---
+
+## 🔁 프로그램 순서도
+
+출석 체크 흐름을 시각화한 순서도입니다.
+
+![프로그램 순서도](./images/flowchart.png)
+
+---
+
+## 🖥️ GUI 실행 화면
+
+출석을 자동으로 관리할 수 있는 Pygame 기반 GUI 화면입니다.
+
+![GUI 화면](./images/gui_screenshot.png)
 
 <br/>
 
 ## 📁 디렉토리 구조
 ```bash
 attendance-system/
-├── arduino/            # 아두이노 코드
+├── Arduino/            # 아두이노 코드
 ├── gui/                # Pygame GUI 코드
-├── data/               # 출석 기록 데이터
-├── README.md
-└── ...
+└── README.md
 
 
