@@ -1,5 +1,7 @@
 # 📚 출석 관리 시스템 (Attendance Management System)
 
+> **개발 기간**: 2023-11-02 ~ 2023-12-07
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Arduino](https://img.shields.io/badge/Arduino-Pressure%20Sensor-green?logo=arduino)
 ![Pygame](https://img.shields.io/badge/Pygame-GUI-lightgrey?logo=pygame)
@@ -80,8 +82,25 @@
 ## 📁 디렉토리 구조
 ```bash
 attendance-system/
-├── Arduino/            # 아두이노 코드
-├── gui/                # Pygame GUI 코드
-└── README.md
+├── Arduino/   # 아두이노 관련 코드
+│ ├── FSRsensor/  # 출석 감지용 센서 코드
+│ │ └── FSRsensor.ino
+│ └── sen/        # 압력센서 값 측정용 코드
+│   └── sen.ino
+│
+├── pp2/       # 파이썬 GUI 애플리케이션
+│ ├── main.py     # 출석 관리 메인 로직
+│ ├── start.py    # 시작 화면 (강의 정보 입력)
+│ ├── run.py      # 통합 실행 파일
+│ ├── data.txt    # 로그 데이터
+│ ├── student.txt # 학생 정보 파일
+│ └── img/        # GUI에 사용되는 이미지 리소스
+│
+├── images/    # README.md용 이미지 자료
+│ ├── flowchart.png
+│ ├── arduino_diagram.png
+│ └── gui_screenshot.png
+│
+└── README.md  # 프로젝트 설명 문서
 
 
